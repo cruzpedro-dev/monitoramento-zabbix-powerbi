@@ -2,7 +2,7 @@
 
 Este projeto demonstra a integração de ponta a ponta entre serviços de infraestrutura Linux e análise de dados no Power BI.
 
-## O que foi feito
+##O que foi feito
 Subi um servidor Ubuntu para hospedar o Zabbix 7.0, configurei o monitoramento de um host Windows e realizei a extração direta dos dados do banco MariaDB para a criação de um dashboard analítico.
 
 ## Tecnologias
