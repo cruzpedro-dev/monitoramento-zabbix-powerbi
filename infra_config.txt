@@ -1,0 +1,18 @@
+Configurações de Infraestrutura (Ubuntu Server)
+
+1. Arquivo editado para permitir conexões externas:
+Caminho: /etc/mysql/mariadb.conf.d/50-server.cnf
+
+2. Alteração realizada:
+De: bind-address = 127.0.0.1
+Para: bind-address = 0.0.0.0
+
+3. Reinicialização do serviço:
+Comando: sudo systemctl restart mariadb
+
+4. Troubleshooting de Conexão:
+Para o Power BI funcionar corretamente, foi necessária a instalação do 
+MySQL Connector/NET versão 8.0.32, corrigindo o erro de metadados "None" 
+das versões mais recentes.
+
+5. Alem da criação em si do servidor.
